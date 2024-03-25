@@ -39,10 +39,10 @@ def count_words_with_prefix(prefix):
     return repetition_counter
 
 # Título do aplicativo
-st.title("Contador de Palavras com Prefixo")
+st.title("Buscador de palavras a partir do prefixo")
 
 # Solicita ao usuário que digite um prefixo
-prefix = st.text_input("Digite um prefixo:", "")
+prefix = st.text_input("Digite o prefixo da palavra:", "")
 
 # Exibe o prefixo digitado pelo usuário
 if prefix:
